@@ -1,4 +1,4 @@
-﻿namespace TylerDM.StandardLibrary.Blazor;
+﻿namespace TylerDM.StandardLibrary.Aspnet;
 
 public static class Namespaces
 {

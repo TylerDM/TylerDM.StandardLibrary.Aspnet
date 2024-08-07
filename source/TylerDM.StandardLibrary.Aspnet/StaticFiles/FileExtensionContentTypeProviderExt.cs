@@ -1,4 +1,4 @@
-﻿namespace DeltaXt.JumpstartXt.Web;
+﻿namespace TylerDM.StandardLibrary.Aspnet.StaticFiles;
 
 public static class FileExtensionContentTypeProviderExt
 {
