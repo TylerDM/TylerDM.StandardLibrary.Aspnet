@@ -6,15 +6,16 @@
 		<Nullable>enable</Nullable>
 		<RootNamespace>TylerDM.StandardLibrary</RootNamespace>
 		<IsPackable>true</IsPackable>
-		<VersionPrefix>$(GitVersion_NuGetVersionV2)</VersionPrefix>
-		<Version>$(GitVersion_NuGetVersionV2)</Version>
+		<Version>1.0.0</Version>
 		<RepositoryType>Git</RepositoryType>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="TylerDM.StandardLibrary" Version="1.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+		<PackageReference Include="TylerDM.StandardLibrary" Version="*" />
 	</ItemGroup>
 
 </Project>
