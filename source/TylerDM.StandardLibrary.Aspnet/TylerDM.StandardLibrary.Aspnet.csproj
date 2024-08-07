@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>TylerDM.StandardLibrary</RootNamespace>
+		<IsPackable>true</IsPackable>
+		<VersionPrefix>$(GitVersion_NuGetVersionV2)</VersionPrefix>
+		<Version>$(GitVersion_NuGetVersionV2)</Version>
+		<RepositoryType>Git</RepositoryType>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="TylerDM.StandardLibrary" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
